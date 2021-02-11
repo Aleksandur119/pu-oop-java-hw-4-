@@ -33,7 +33,7 @@ public class Board {
 			}
 
 		}
-		
+		UnknownTeritory.spawnUnknowsTeritory(g, size);
 		player.render(g);
 
 	}
